@@ -125,6 +125,10 @@
 		{
 			"Name": "AnimationWarping",
 			"Enabled": true
+		},
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
