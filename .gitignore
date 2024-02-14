@@ -1,14 +1,51 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
-*.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
+# Unreal Engine .gitignore with additional ignores
+
+# Ignore folders
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+/Build/
+/.vs/
+/.vscode/
+/obj/
+/.idea/
+/*.opensdf
+/*.sdf
+/*.suo
+/*.user
+/*.userprefs
+/*.VC.db
+/*.VC.VC.opendb
+
+# Ignore specific file types
+*.autosave
+*.log
+*.vspx
+*.ini
+*.swp
+*.lock
+*.DS_Store
+
+# Ignore UE4 asset backup files
+*.uasset~ 
+*.umap~
+
+# Ignore user-specific Unreal Engine files
+*.uproject.user
+*.uproject.*.user
+
+# Ignore Mac OS X specific files
+.DS_Store
+
+# Ignore Visual Studio Code directories
+.vscode/
+
+# Ignore potential sensitive data and personal directories
+Config/Development/
+Config/Production/
+Saved/StagedBuilds/
+
+# Custom ignore folders
+Content/_ExternalActors/
+Content/_ExternalObjects/
